@@ -2,12 +2,10 @@
 #root{
     display: flex;
     overflow-x: hidden;
+    max-height: 100vh;
+    min-height: 100vh;
 }
-@media screen and (max-width:1234px) {
-  #root{
-    /* display: inline-block; */
-  }
-}
+
 .response::-webkit-scrollbar{
     width: 0;
     height: 0;
