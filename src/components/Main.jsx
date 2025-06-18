@@ -103,7 +103,7 @@ export const Main = () => {
                 <div className="content flex-1 flex flex-col md:px-20 px-5 pt-10 items-center justify-between">
 
 
-                    <div className="response md:max-h-[70vh] max-h-[80vh] h-[80%] w-full overflow-auto">
+                    <div className="response max-h-[70vh] h-[80%] w-full overflow-auto">
                         {/* {loading && <div>
                                 Loading...
                             </div>} */}
@@ -118,7 +118,7 @@ export const Main = () => {
                                 <div className='block text-justify'>{responseState}</div>
                             </div>
                         ) : (
-                            <div className="title flex flex-col md:gap-10 gap-8 pt-20 md:pt-0">
+                            <div className="title flex flex-col md:gap-10 gap-8 pt-10 md:pt-0">
                                 <div className="up">
                                     <h1 className="text-6xl font-semibold bg-gradient-to-r from-[#6A89E7] via-[#A9769D] to-[#C66D78] text-transparent bg-clip-text">
                                         Hello, Team
