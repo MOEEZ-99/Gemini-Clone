@@ -1,0 +1,42 @@
+@import "tailwindcss";
+#root{
+    display: flex;
+    overflow-x: hidden;
+}
+@media screen and (max-width:1234px) {
+  #root{
+    /* display: inline-block; */
+  }
+}
+.response::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.animate {
+  background: linear-gradient(
+    270deg,
+    #d4a6fc,
+    /* #4a00e0, */
+    #99d8e9,
+    #92fe9d
+  );
+  background-size: 400% 400%;
+  animation: slide 1s ease infinite;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
