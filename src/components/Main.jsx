@@ -118,7 +118,7 @@ export const Main = () => {
                                 <div className='block text-justify'>{responseState}</div>
                             </div>
                         ) : (
-                            <div className="title flex flex-col md:gap-10 gap-8 pt-4s md:pt-0">
+                            <div className="title flex flex-col md:gap-10 gap-8 pt-4s md:pt-0 mt-8">
                                 <div className="up">
                                     <h1 className="text-6xl font-semibold bg-gradient-to-r from-[#6A89E7] via-[#A9769D] to-[#C66D78] text-transparent bg-clip-text">
                                         Hello, Team
