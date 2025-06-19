@@ -100,7 +100,7 @@ export const Main = () => {
                     </div>
                 </div>
 
-                <div className="content flex-1 flex flex-col md:px-20 px-5 pt-10 items-center justify-between">
+                <div className="content flex-1 flex flex-col md:px-20 px-5  items-center justify-between">
 
 
                     <div className="response xl:max-h-[70dvh] max-h-[70dvh] h-[100%] w-full overflow-auto">
