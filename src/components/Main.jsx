@@ -103,7 +103,7 @@ export const Main = () => {
                 <div className="content flex-1 flex flex-col md:px-20 px-5  items-center justify-between">
 
 
-                    <div className="response xl:max-h-[70dvh] max-h-[70dvh] h-[100%] w-full overflow-auto">
+                    <div className="response xl:max-h-[70dvh] max-h-[90dvh] h-[100%] w-full overflow-auto">
                         {/* {loading && <div>
                                 Loading...
                             </div>} */}
@@ -119,7 +119,7 @@ export const Main = () => {
                             </div>
                         ) : (
                             <div className="title flex flex-col md:gap-10 gap-8 pt-4s md:pt-0">
-                                <div className="up  mt-8">
+                                <div className="up mt-12">
                                     <h1 className="text-6xl font-semibold bg-gradient-to-r from-[#6A89E7] via-[#A9769D] to-[#C66D78] text-transparent bg-clip-text">
                                         Hello, Team
                                     </h1>
