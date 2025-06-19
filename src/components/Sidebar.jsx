@@ -20,7 +20,7 @@ export const Sidebar = () => {
     <>
     {/* {showNav &&<div className={`blur bg-gray-300 w-screen h-screen absolute ${showNav? "opacity-[0.8]": "opacity-0"} transition-all duration-[10s]`}></div>} */}
     <div className={`blur bg-gray-300 w-screen h-screen absolute transition-all duration-300 ${showNav ? "opacity-[0.8]" : "opacity-0 pointer-events-none"}`}></div>
-    <div className={` menu h-screen absolute xl:static flex ${showNav? "w-[65%] left-0 flex z-10" : "left-[-100%]"} flex-col justify-between pb-5 pt- px-3 bg-[#F7F2FA] ${extened? "w-[15%]" : "w-auto"} transition-all  duration-300 ease-in-out`}>
+    <div className={` menu h-[100dvh] absolute xl:static flex ${showNav? "w-[65%] left-0 flex z-10" : "left-[-100%]"} flex-col justify-between pb-5 pt- px-3 bg-[#F7F2FA] ${extened? "w-[15%]" : "w-auto"} transition-all  duration-300 ease-in-out`}>
 
         <div className="top flex flex-col gap-5">
             <div className=''>
