@@ -103,7 +103,7 @@ export const Main = () => {
                 <div className="content flex-1 flex flex-col md:px-20 px-5  items-center justify-between">
 
 
-                    <div className="response xl:max-h-[70dvh] max-h-[90dvh] h-[100%] w-full overflow-auto">
+                    <div className="response xl:max-h-[70dvh] max-h-[80dvh] h-[100%] w-full overflow-auto">
                         {/* {loading && <div>
                                 Loading...
                             </div>} */}
