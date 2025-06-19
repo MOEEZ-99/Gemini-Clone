@@ -1,9 +1,10 @@
 @import "tailwindcss";
 #root{
     display: flex;
-    overflow-x: hidden;
+    max-height: 100dvh;
     max-height: 100vh;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .response::-webkit-scrollbar{
